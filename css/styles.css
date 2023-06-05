@@ -6,20 +6,23 @@
 }
 
 .btn{
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid black;  
+  text-transform: uppercase;
+  
+}
 
-  display: inline-flexbox;
-  color: chocolate;
-  text-align: center;
-  margin: 10px;
-  padding: 10px 20px;
-  justify-content: flex-end;
-  color: black;
+body{
+  background-image: url('../images/foto\ de\ plantilla\ de\ musica\ \,acorde.jpg'); 
+  background-position: 1em;
+  
 }
 
 .footer{
   background-color: tomato;
-  text-align: ;
-  display: inline-block;
+
+ 
 
 }
      /* Diseño responsivo para tablets */

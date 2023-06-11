@@ -4,39 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Página de Música</title>
-  
   <link rel="stylesheet" href="script.js">
+  <title>Página de Música</title>
 </head>
-<body>
-
-  <header class="btn">
-    <nav>
+</html>
+ <!-- empiezo por el header con un container -->
+  <header id= container>
+    <!--sigo por el nav , la clase con sus hijos-->
+    <nav class="nav y hijos">
         <ul >
           
-        <button > <a href="http://charts.youtube.com/charts/topsongs/global?hl=es">tendencias musicales</a></button> 
+        <button class="btn1"> <a href="http://charts.youtube.com/charts/topsongs/global?hl=es" target="_blank">tendencias musicales</a ></button> 
           
         
-        <button><a href="https://www.getyourguide.es/magazine/2019/05/7-ciudades-musicales-alrededor-del-mundo/">paises y ciudades</a></button> 
+        <button class="btn2"><a href="https://www.getyourguide.es/magazine/2019/05/7-ciudades-musicales-alrededor-del-mundo/" target="_blank">paises y ciudades</a></button> 
           
           </ul>
      </nav>
-  </header>
+<!--luego sigo por el body con la clase y sus hijos-->
+<body class="body y sus hijos">
+     
+     <div class="p">
+   
+       <p>
+        bienvenidos al mundo de la musica
+       </p>  
 
-  <section>
-    <div>
+     </div>
+     <!--casi por terminar el main con la clase y 
+      sus hijos-->
+      <main> 
+      <div>
+        <section class="detalles ">
+          <form action="formulario" method="get">formulario para inscribirse y contar anecdotas de la musica</form>
+          <label for="primernombre">primer nombre</label><br>
+          <input type="text" name="primernombre" id="primernombre"><br>
+          <label for="segundonombre">segundo nombre</label><br>
+          <input type="text" name="segundonombre" id="segundonombre"><br>
+          <label for="mail">mail</label><br>
+          <input type="text" name="mail" id="mail"><br>
+          <label for="contraseña">contraseña</label><br>
+          <input type="text" name="contraseña" id="contraseña"><br>
+          <table><button class="btn">
+            <!--mejorarar el textarea-->
+            <textarea name="compartir gustos musicales" id="compartir" cols="20" rows="5">comentarios:</textarea> 
+     </button>
+          </table>
+          <br>
+        </form>
+        </section>
+        <footer class="footer">
+          <p>&copy; 2023 - Buenos Aires, Argentina</p>
+         </footer>
+        </div>
+        </main>
 
-    
 
-    
-       <footer class="footer">
+
+
         
-        <p>&copy; 2023 - Buenos Aires, Argentina</p>
-        
-      </footer>
-    </div>
-  
-  </section>
-  
-  
- 
+    

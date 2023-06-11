@@ -1,22 +1,60 @@
+
 *{
-  margin: 0;
-  padding: 0;
-  font-family: cursive;
   font-size: large;
 }
+#header{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
 
-.btn{
-  display: inline-block;
-  margin: 20px;
-  border: 1px solid black;  
-  text-transform: uppercase;
+}
+
+.nav .ul .btn1 .btn2{
+     margin: 0;
+     padding: 0;
+     
+     font-family: georgian;
+     font-size: large;
+     
+
+}
+.btn1 {
+  margin-top: 2px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20%;  
+
   
 }
 
-body{
+.btn2{
+  margin-top: 2px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.body{
   background-image: url('../images/foto\ de\ plantilla\ de\ musica\ \,acorde.jpg'); 
   background-position: 1em;
   
+}
+
+.p{
+
+   font-family: fantasy;
+   color: darkmagenta;
+   margin-top: 10%;
+   padding: 20%;
+}
+
+.detalles{
+  margin: 10px;
+  padding: 5px;
+  font-family: cursive;
+  color: purple;
+
+
 }
 
 .footer{
